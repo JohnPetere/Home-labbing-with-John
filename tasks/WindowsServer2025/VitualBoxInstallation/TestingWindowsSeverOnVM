@@ -1,0 +1,37 @@
+# Testing the virtual Server set up before big install
+- I'm going to be installing and setting different things such as webhosting, AD Set up. I want to do this before actually running it on my actual home server. This is the goal. I'm hoping that helps. 
+ > Domain Name: BobsBigBatch.com
+
+
+## To Do
+ - [x ] Install Windows Server 2025
+ - [ ] Install Active DIrectory ( Learn device, user, and group management )
+    - [ ] Add useres
+    - [ ] Add computers to active Directory
+    - [ ] Domain Join computers and manage their profiles
+    - [ ] Set up Email server (Exchange? )
+    - [ ]
+ - [ ] Install Web Server of some sort
+    - [ ] Get a cheap domain 
+    - [ ] Run a React Website
+    - [ ] Run a .net website
+    - [ ]
+ - [ ] Install Plex Server
+ - [ ] Figure out how to register Windows Server 
+ - [ ] Combinie with Intune tenant
+    - [ ] Complete with Intune Entra Join 
+
+
+### Install Windows Server 2025
+ - Set up was pretty straight foreward once I remembered to create a drive for the Virtual Machine. Easily instaled. The test is using VirtualBox by Oracle. 
+
+### Install Active Directory
+Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-
+ 
+#### So far Just installed using this command: 
+``` Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools ```
+ - Folllowing the guide above, I didn't see the need to set up remote servers just yet...
+#### I used this commmand here just to install Active Directory. 
+> I had to reboot to install it
+```Invoke-Command { Install-ADDSDomainController -DomainName contoso.com -Credential (Get-Credential) } -ComputerName ConDC3```
+ - I had to reboot before installing. Seems to work after. 

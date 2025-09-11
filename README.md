@@ -39,7 +39,6 @@ It’s part **learning journal**, part **reference library**, and part **sandbox
    - Plan out what programs / software build for it and test run it on a VM.
    - Install Windows Server 2025
    - Set up Windows Server
-  
    - 
 
 
