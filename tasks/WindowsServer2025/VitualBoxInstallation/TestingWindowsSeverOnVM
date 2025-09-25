@@ -35,3 +35,6 @@ Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/i
 > I had to reboot to install it
 ```Invoke-Command { Install-ADDSDomainController -DomainName contoso.com -Credential (Get-Credential) } -ComputerName ConDC3```
  - I had to reboot before installing. Seems to work after. 
+
+
+I'm going to tryt this one out here: https://github.com/darkoid/ActiveDirectoryLab
