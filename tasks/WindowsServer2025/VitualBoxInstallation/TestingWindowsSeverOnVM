@@ -5,8 +5,8 @@
 
 ## To Do
  - [x ] Install Windows Server 2025
- - [ ] Install Active DIrectory ( Learn device, user, and group management )
-    - [ ] Add useres
+ - [ x] Install Active DIrectory ( Learn device, user, and group management )
+    - [ ] Add users
     - [ ] Add computers to active Directory
     - [ ] Domain Join computers and manage their profiles
     - [ ] Set up Email server (Exchange? )
@@ -25,6 +25,7 @@
 ### Install Windows Server 2025
  - Set up was pretty straight foreward once I remembered to create a drive for the Virtual Machine. Easily instaled. The test is using VirtualBox by Oracle. 
 
+
 ### Install Active Directory
 Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-
  
@@ -38,3 +39,14 @@ Source: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/i
 
 
 I'm going to tryt this one out here: https://github.com/darkoid/ActiveDirectoryLab
+
+
+
+ #### Iniitial Set up record
+ VMNAme: Doesn't matter
+ OS: Microsoft Windows
+ OS Version (WIndows Server 2019 ). 
+ - I coudn't seem to get it to work in virtualbox otherwise.
+ - The first set up I did properly, however I forgot to record the set up instructions. There inn't much, just these above. 
+ - Successfully Installing currently. 
+ - The next plan is to ***create a LOCAL admin breakglass account*** so that I don't mess again. 
