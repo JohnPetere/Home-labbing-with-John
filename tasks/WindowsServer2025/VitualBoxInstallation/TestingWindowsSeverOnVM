@@ -50,3 +50,17 @@ I'm going to tryt this one out here: https://github.com/darkoid/ActiveDirectoryL
  - The first set up I did properly, however I forgot to record the set up instructions. There inn't much, just these above. 
  - Successfully Installing currently. 
  - The next plan is to ***create a LOCAL admin breakglass account*** so that I don't mess again. 
+
+
+##### Add Roles and Features Wizard
+Renamed Computer : BBB-DC-1
+Before you Begin: ![alt text](image.png)
+Installation Type: Role Based or features
+Server Selection: ![alt text](image-1.png)
+Server Roles: 
+ - Add Active Directory Domain Services. 
+      - Check:  Include Management tools 
+
+AD DS: Read Blurb
+Confimration: 
+ - Uncheck: Restart The desination server automatically
