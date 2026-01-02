@@ -3,8 +3,10 @@
 ## HTPC
 **IP:** 192.168.10.84:32400
 **DNS:** htpc-plexmedia.com:32400
-## Softare
-
+## Software
+ - Plex Media Server
+ - Surf Shark: VPN
+ - Ubuntu Desktop
 
 ## Proxmox Cluster
 

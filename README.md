@@ -31,9 +31,10 @@ It’s part **learning journal**, part **reference library**, and part **sandbox
  -
 ## Currently doing 
  - Building out MD pages. 
- - Setting
-
+ - Getting the hang of clustering.
  
+
+
 
 
 
