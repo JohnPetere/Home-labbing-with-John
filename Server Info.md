@@ -3,7 +3,7 @@
 ## HTPC
 **IP:** 192.168.10.84:32400
 **DNS:** htpc-plexmedia.com:32400
-## Software
+### Software
  - Plex Media Server
  - Surf Shark: VPN
  - Ubuntu Desktop
@@ -11,7 +11,13 @@
 ## Pi Hole
 **IP:** 192.168.10.99
 **DNS:** htpc-plexmedia.com:32400
-
+### Software
+ - OS: DietPi
+ - OpenSSH
+ - DietPi
+### Router setup
+ - Settings > Networks > Default 
+    - 
 ## Proxmox Cluster
 
 ### Main Node

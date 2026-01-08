@@ -28,11 +28,13 @@ It’s part **learning journal**, part **reference library**, and part **sandbox
 
   
 ## To DO List
- -
+ - Set up VLAN for smart devices, cluster
+ - 
 ## Currently doing 
- - Building out MD pages. 
- - Getting the hang of clustering.
- 
+ - Complete Web Server project on cluster
+    - Load balancing, simulate loads requests, and "outages" 
+    - Set up git repo on PVE1, then auto sync each one
+    - Create topology and diagrams, screenshots in readme. 
 
 
 

@@ -21,3 +21,12 @@
 ## 1/7/2025
 > Added Pi-Hole. Configured to router. Want to eventually add a pi hole controller button when it blocks something on web pages: https://github.com/mikeswanson/PiHoleController. 
 
+> I noticed Pi-Hole has much stronger configuration for DNS filtering. Espicially with custom lists. Also need to record steps I took to set up Pi Hole in router and pi. 
+
+> - Intergrated Pi-Hole as primary DNS while keeping DHCP, routing, and firewall on router
+> - Corrected mistake where Pihole was set to WAN DNS instead of LAN DHCP DNS
+> - Used nslookup to see to verify primary DNS
+> - enabled condianal forewarding on Pi-hole so I could see hostnames through the router
+> 
+
+> ALso need to completly redo git servers, so that the git keys are not public lol. 
