@@ -29,7 +29,7 @@ It’s part **learning journal**, part **reference library**, and part **sandbox
   
 ## To DO List
  - Set up VLAN for smart devices, cluster
- - 
+ - Re organize and link up MD files in more user friendly manner. 
 ## Currently doing 
  - Complete Web Server project on cluster
     - Load balancing, simulate loads requests, and "outages" 

@@ -15,9 +15,17 @@
  - OS: DietPi
  - OpenSSH
  - DietPi
+### Pi Hole setup 
+ - set Initial Static IP in Router
+  - Web Console > System > Settings > DNS > Condtional formatting
+    - true,192.168.10.0/24,192.168.10.1,lan.box
 ### Router setup
- - Settings > Networks > Default 
+ - Settings > Networks > network
+  -DNS Server(s)
+    - Primary:192.168.10.99 (Pi Hole DNS)
+    - Secondary: 8.8.8.8
     - 
+    -
 ## Proxmox Cluster
 
 ### Main Node
